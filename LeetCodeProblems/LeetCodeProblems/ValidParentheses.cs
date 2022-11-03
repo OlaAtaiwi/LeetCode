@@ -8,8 +8,6 @@ namespace LeetCodeProblems
     {
         public static bool IsValid(string str)
         {
-
-
             Stack<char> s = new Stack<char>();
 
             for (int i = 0; i < str.Length; i++)
