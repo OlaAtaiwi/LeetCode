@@ -25,16 +25,12 @@ namespace LeetCodeProblems
                     else if (top == '{' && ch == '}') s.Pop();
                     else if (top == '[' && ch == ']') s.Pop();
                     else return false;
-
                 }
-
-
             }
 
             if (s.Count == 0)
                 return true;
             else return false;
-
         }
     }
 }
