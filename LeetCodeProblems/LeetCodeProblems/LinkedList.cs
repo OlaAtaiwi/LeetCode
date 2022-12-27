@@ -13,7 +13,6 @@ namespace LeetCodeProblems
             this.val = val;
             this.next = next;
         }
-
     }
     class LinkedList
     {
